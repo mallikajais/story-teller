@@ -1,0 +1,21 @@
+.story{
+	background-color: white;
+    border-radius: 10px;
+    padding-left: 23%;
+    width: 25%;
+    padding-right: 22%;
+    margin-left: 15%;
+  
+}
+.form{
+	width: 70%;
+	border-radius: 10px;
+	background-color: #efebe9;
+	margin-left: 15%;
+}
+#storynull span{
+	text-decoration-line: underline;
+}
+.scroll{
+	overflow-y: scroll;
+}

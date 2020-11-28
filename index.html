@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>story telling</title>
+	<link rel="stylesheet" type="text/css" href="story.css"/>
+</head>
+<body style="background-color: orange;">
+	<div class="container text-center story">
+		<img src="story.png">
+	</div>
+	<div class="container form">
+		<div class="container ">
+			<h1 style="text-align: center;padding-top: 15px;">Complete the Form - Complete the Story</h1><hr>
+		</div>
+		<div class="text-center" style="font-size: 20px;">
+			<form class="text-center" action="storytext.html" method="POST"><br>
+				<div style="padding-left: 35%;">
+					<label>Animal : </label>
+					<input type="text" id="animal1" name="animal1" placeholder="tiger">
+				</div><br>
+				<div style="padding-left: 30%;">
+					<label>Another Animal : </label>
+					<input type="text" id="animal2" name="animal2" placeholder="lion">
+				</div><br>
+				<div style="padding-left: 29%;">
+					<label>One More Animal : </label>
+					<input type="text" id="dog" name="dog" placeholder="dog">
+				</div><br>
+				<div style="padding-left: 28%;">
+					<label>Adjective (past tense): </label>
+					<input type="text" name="adjective" id="alarmed" placeholder="alarmed">
+				</div><br>
+				<div style="padding-left: 28%;">
+					<label>Verb (end in -ing): </label>
+					<input type="text" name="Verb" id="running" placeholder="running">
+				</div><br>
+				<div style="padding-left: 35%;">
+					<label>Number: </label>
+					<input type="number" name="number" id="number" placeholder="2">
+				</div><br>
+				<div style="padding-left: 37%;">
+					<label>Yes or No : </label>
+					<input type="radio" name="yes1" id="Yes" value="Yes">
+					<label>Yes  </label>
+					<input type="radio" id="No" name="yes1" value="No">
+					<label>No  </label>
+				</div><br>
+				<div style="padding-left: 33%;">
+					<label>Relative Speed (end in-er) : </label>
+					<select name="speed" id="speed">
+  						<option value="quicker">quicker</option>
+  						<option value="faster">faster</option>
+  						
+					</select>
+				</div><br>
+				<div style="padding-left: 27%;">
+					<label>Motivational Quote : </label>
+					<input type="text" id="quote" placeholder="Example">
+				</div><br>
+				<div style="padding-left: 35%;">
+					<div><label style="padding-left: 30px;">Meaningful Message : </label></div>
+					<div ><input type="text" style="height: 50px; width: 37%;" id="message" placeholder="This is a Message ."></div>
+				</div><br>
+				<button style="margin-left: 39%;font-size: 20px;" onclick="submit1();"> Form MY Story ! </button><br>
+			</form><br>
+		</div><br>
+	</div>
+
+	
+	<script src="index.js">
+		
+	</script>
+
+</body>
+</html>
